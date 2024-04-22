@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+}
+
+#search{
+    text-align: center;
+    display: block;
+    /* margin-bottom: 100px; */
+    border: 2px solid black;
+}
+
+
+#searchResult{
+    /* border: 2px solid blue; */
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+  
+}
+
+#flexx{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+#favoriteItems{
+    width: 20%;
+    height: 10%;
+    /* border: 2px solid yellow; */
+    text-align: center;
+    /* text-decoration: solid; */
+    display: inline-block;
+
+}
+
+.newdiv{
+    border: 2px solid black;
+    flex: 1;
+    min-width: 25%;
+    min-height: 25%;
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+
+#container-div {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+#content-box {
+    height: 80%;
+    width: 80%;
+    background-color: lightgrey;
+    overflow: scroll;
+}
+
+#content-box a{
+    margin-left: 99%;
+}
+
+#container-div:target {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.cover img{
+    height: 70%;
+    width: 100%;
+    image-resolution: 100%;    
+    margin: auto;
+    object-fit :fill;
+    image-resolution: inherit;
+    /* object-fit: cover; */
+}
